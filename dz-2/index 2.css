@@ -50,12 +50,10 @@ margin-top: 200px;
 span {
     color:#cdcbd6;
     font-size:25px;
-    
 }
 body {
     background-color: #3b3f45;
 }
-
 button { 
     width:780Px;
     height:73Px;
@@ -67,8 +65,6 @@ button {
     border: 0;
     padding: 0;
       }
-
-
 input:checked + span {
   color: #9f919b;
   text-decoration: line-through;
