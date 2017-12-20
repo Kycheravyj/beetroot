@@ -1,0 +1,73 @@
+*,
+*:after,
+*:before {
+box-sizing: border-box;
+}
+
+.wrapper {
+	width: 100%;
+	max-width: 1170px;
+	padding: 0 15px;
+	margin: 0;
+}/*
+.clearfix{
+	overflow: auto;*/
+
+.main-screen {
+	background: url(images/computer.jpg) center no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 650px;
+	height: 100%;
+}
+.section-galery{
+
+}
+.header{
+	padding-top: 36px;
+	overflow: hidden;
+	margin-bottom: 150px;
+
+
+}
+.logo{
+	float: left;
+
+}
+.nav {
+ float: right;
+ height: 99px;
+ line-height: 99px;
+
+
+
+}
+.nav-link{
+	color: #fff;
+	font-size: 16px;
+	padding: 0 50px;
+	position: relative;
+
+
+}
+.main-screen {
+	text-align: center; 
+	text-transform: uppercase;
+}
+.nav-link:last-of-type {
+	padding-right: 0;
+	position: static;
+}
+.nav-link:after {
+	content: '';  /*вставить правильний символ*/
+	position: absolute;
+	top: 50;
+	right: 0;
+	width: 1px;
+	height: 22px;
+	background-color: #6b7783;
+	transform: translateY(-50%) rotate (15deg);
+}
+.main-section-title {
+	
+}

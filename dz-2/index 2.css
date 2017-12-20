@@ -1,3 +1,11 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: all .1s ease-in;
+}
 h1{
     bottom: 26px;
     font-size: 32px;
@@ -14,6 +22,8 @@ header {
     text-align:  center;
     color: #d9777d ;
     background-color:#4a4f56;
+    padding: 15px;
+
 
 }
 div {
@@ -26,7 +36,7 @@ div {
     list-style-type: none;
     color: white;
     background-color: #7a7692;
-    line-height:60px;
+   
     transition: .5s;
 }
 .fon {
@@ -47,7 +57,7 @@ body {
 }
 
 button { 
-    width:800Px;
+    width:780Px;
     height:73Px;
     font-size: 20px;
     color: #d9777d;
@@ -57,6 +67,8 @@ button {
     border: 0;
     padding: 0;
       }
+
+
 input:checked + span {
   color: #9f919b;
   text-decoration: line-through;
@@ -66,4 +78,7 @@ div:hover {
     border-style: solid;
     border: 8px;
     border-color: #ffffff;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    background-color: #625e76;
 }
