@@ -1,0 +1,29 @@
+body {
+    padding: 0 20px;
+    font-family:Helvetica, sans-serif;
+    font-size: 16px;
+    background-color:#E0FFFF;
+    }
+
+h1 {
+    color: #618ad2;
+    text-shadow: 2px 2px 0 #696969;
+
+}
+
+.navig li {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    background: #f5f5f5;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+li em {
+    color: #618ad2;
+}
+
+p { 
+text-shadow: 0.5px 0.5px 0 #696969
+}
