@@ -6,7 +6,9 @@
     margin: 0;
     transition: all .1s ease-in;
 }
+// @TODO: отступы
 h1{
+    // @TODO: что за сво-во такое???
     bottom: 26px;
     font-size: 32px;
 }
@@ -18,6 +20,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    // @TODO: высота у хедера если он фиксированный должна быть задана явно в пикелях
     height: 20%;
     text-align:  center;
     color: #d9777d ;
@@ -27,11 +30,13 @@ header {
 
 }
 div {
+    // @TODO: используй max-width: 780px вместо просто ширины для врапперов, контейнеров
     width: 780px;
     height: 60px;
     margin-left: 295px;
     padding: 10px;
     font-size: 25px;
+    // @TODO: провило бордер задано не верно не все значения указаны
     border: 8px transparent;
     list-style-type: none;
     color: white;
@@ -53,7 +58,8 @@ span {
 body {
     background-color: #3b3f45;
 }
-button { 
+button {
+    //  @TODO: еденицы измерения в нижнем регистре
     width:780Px;
     height:73Px;
     font-size: 20px;
@@ -73,6 +79,7 @@ div:hover {
     border-style: solid;
     border: 8px;
     border-color: #ffffff;
+    // @TODO: у тебя вверху указано значение бордера 8 пикселей, затем ты внизу его определяешь как 2 пикселя, из-за этого у тебя "прыгает" контент, посмотри в гугле как правильно указывается значение бордера
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
     background-color: #625e76;
