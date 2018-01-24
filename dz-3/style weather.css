@@ -141,4 +141,149 @@ footer {
 	margin-left: 16%;
 	margin-top: 0;
 	margin-bottom: 2%;
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	transition: all .4s ease-in;
+	transition: all .9s ease-out;
+}
+ @font-face{
+ 	font-family: sans-serif Lucida Grande ;
+ }
+
+.fiolet {
+	background-color: #33cccc;
+	// @TODO: ты везде используешь и повторяешь opacity 0.4 - вынеси его или в какой-то класс или дай это св-во другому классу, не надо повторять код один и тот же в многих местах, потом тяжелее будет его править
+	opacity: .4
+}
+.vio {
+	background-color: #996699;
+	opacity: .4
+}
+.red {
+	background-color: #c24747;
+	opacity: .4
+}
+.mandarin {
+	background-color: #e2674a;
+	opacity: .4
+}
+
+.light-green {
+	background-color: #99cc99;
+	opacity: .4
+}
+.pink {
+	background-color: #cc6699;
+	opacity: .4
+}
+
+.viodark {
+	background-color: #666699;
+	opacity: .4
+}
+
+.big {width: 100%;}
+.little {width: 25%;}/*размеры блока*/
+.med {width: 50%;}
+
+
+/*User Style*/
+body {
+	background-color: #3399cc;
+	border: 20px solid #2b81ac;
+	color: #fff;
+	font-size: 0;
+}
+.blue {
+	background-color: #3399cc;
+	opacity: .4
+}
+.borderM {
+	border: 3px solid #fff;
+}
+h1 {
+	font-size: 26px;
+}
+.green {background-color: #339966;}
+p {
+	font-size: 18px;
+}
+.big-later {
+	text-transform: uppercase;
+}
+.I {
+	max-width: 900px;
+	margin: 25px auto;
+}
+.yellow {
+	background-color: #ffcc66;
+	opacity: .4
+}
+.box {
+	text-transform: capitalize;
+}
+.header {
+	// @TODO: используй явно заданные паддинги и маржины, и старайся не использовать отрицательные маржины
+	padding-bottom: 1%;
+	margin-left: 16%;
+	margin-top: 2%;
+	margin-bottom: -2%;
+}
+.green {
+	background-color: #339966;
+	opacity: .4
+}
+.com {
+	border: 3px solid #fff;
+	display: inline-block;
+	text-align: center;
+	position: relative;
+	height: 111px;
+}
+.com:hover {
+	opacity: 20;
+
+}
+.pink {
+	background-color: #cc6699;
+	opacity: .4
+}
+.red {background-color: #c24747;
+	opacity: .4
+}
+.town {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px
+	width: 100%;
+}
+.town-n {
+	padding-bottom: 6%;
+}
+.temperature {
+	opacity: .4
+}
+.wi {
+	margin-left: 10px;
+	font-size: 28px;
+}
+.light-green {
+	background-color: #99cc99;
+	opacity: .4
+}
+.sea {
+	background-color: #669999;
+	opacity: .4
+}
+footer {
+	padding-bottom: 5%;
+	margin-left: 16%;
+	margin-top: 0;
+	margin-bottom: 2%;
 }
