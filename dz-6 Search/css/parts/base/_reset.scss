@@ -1,0 +1,26 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  
+  
+}
+ul {
+  margin-left: 0;
+  padding-left: 0; 
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+button:active, button:focus {
+  outline: none;
+}
+span {
+  display: inline;
+}

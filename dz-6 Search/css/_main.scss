@@ -1,0 +1,15 @@
+// RESET
+@import "./parts/base/_reset.scss";
+
+// FONTS
+@import "./font-awesome.css";
+@import "./ionicons.css";
+
+@import "./parts/base/_colors.scss";
+@import "./parts/base/_helpers.scss";
+@import "./parts/base/_variables.scss";
+@import "./parts/base/_mixins.scss";
+@import "./parts/base/_base.scss";
+
+// SECTIONS
+@import "./parts/sections/_table.scss";
