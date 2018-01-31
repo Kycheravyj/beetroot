@@ -1,0 +1,245 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400|Roboto:300,400);
+body {
+  background-color: #fdde7e;
+  font-family: 'Roboto', sans-serif;
+  color: #333333;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content:center;
+  padding: 15px;
+  .left {
+    background-color: #ffffff;
+    width: 360px;
+    height: 443px;
+    margin: 80px 30px 78px 30px;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #bdbdbd;
+    display: flex;
+    justify-content:center;
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-content: center;   
+      &--content {
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;     
+        .dolar {
+          display: flex;
+          justify-content:center;
+          color:#02995b;
+          font-size: 70px;
+          margin-top: 32px;
+          font-weight: 300;
+        }
+        &--img {
+          display: flex;
+          flex-direction:column;
+          justify-content:center;
+
+          .zerno {
+            margin: auto; 
+            width: 36px;
+            height: 45px;
+            margin-bottom: -60px;
+            z-index: 2;
+            
+            
+          }
+          .chashka {
+            margin: auto; 
+            width: 135px;
+            height: 77px;
+            padding-left: 15px;
+            padding-bottom: 20px;
+            
+          }
+          .dum {
+            margin: auto; 
+            width: 49px;
+            height: 46px;
+            padding-bottom: 26px;
+            padding-top: 20px;
+          }
+        }
+        .color {
+          display: flex;
+          justify-content:center;
+          font-size: 56px;
+          font-weight: 300;
+          padding-bottom: 20px;
+
+        }
+        .coust {
+          display: flex;
+          justify-content:center;
+          font-family: 'Lato', sans-serif;
+          font-size: 20px;
+          font-weight: 300;
+          text-align: center;
+
+        }
+      }
+    }
+  }
+  .center {
+    background-color: #ffffff;
+    width: 360px;
+    height: 500px;
+    margin: 50px 0 78px 0;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #bdbdbd;
+    display: flex;
+    justify-content:center;
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-content: center;   
+      &--content {
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;     
+        .dolar {
+          display: flex;
+          justify-content:center;
+          color:#02995b;
+          font-size: 70px;
+          margin-top: 32px;
+          font-weight: 300;
+          margin-bottom: 50px;
+        }
+        &--img {
+          display: flex;
+          flex-direction:column;
+          justify-content:center;
+
+          .zerno {
+            margin: auto; 
+            width: 36px;
+            height: 45px;
+            margin-bottom: -60px;
+            z-index: 2;
+            //order: ;
+            
+          }
+          .chashka {
+            margin: auto; 
+            width: 135px;
+            height: 77px;
+            padding-left: 15px;
+            //order: ;
+            padding-bottom: 20px;
+            
+          }
+          .dum {
+            margin: auto; 
+            width: 49px;
+            height: 46px;
+            //order: ;
+            padding-bottom: 26px;
+            
+          }
+        }
+        .color {
+          display: flex;
+          justify-content:center;
+          font-size: 56px;
+          font-weight: 300;
+          padding-bottom: 20px;
+
+        }
+        .coust {
+          display: flex;
+          justify-content:center;
+          font-family: 'Lato', sans-serif;
+          font-size: 20px;
+          font-weight: 300;
+          text-align: center;
+
+        }
+      }
+    }
+  }
+  .right {
+    background-color: #ffffff;
+    width: 360px;
+    height: 443px;
+    margin: 80px 30px 78px 30px;
+    border-radius: 2px;
+    box-shadow: 0 0 2px #bdbdbd;
+    display: flex;
+    justify-content:center;
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-content: center;   
+      &--content {
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;     
+        .dolar {
+          display: flex;
+          justify-content:center;
+          color:#02995b;
+          font-size: 70px;
+          margin-top: 32px;
+          font-weight: 300;
+        }
+        &--img {
+          display: flex;
+          flex-direction:column;
+          justify-content:center;
+          .zerno {
+            margin: auto; 
+            width: 36px;
+            height: 45px;
+            margin-bottom: -60px;
+            z-index: 2;
+            //order: ;
+            
+          }
+          .chashka {
+            margin: auto; 
+            width: 135px;
+            height: 77px;
+            padding-left: 15px;
+            //order: ;
+            padding-bottom: 20px;
+            
+          }
+          .dum {
+            margin: auto; 
+            width: 49px;
+            height: 46px;
+            //order: ;
+            padding-bottom: 26px;
+            padding-top: 20px;
+          }
+        }
+        .color {
+          display: flex;
+          justify-content:center;
+          font-size: 56px;
+          font-weight: 300;
+          padding-bottom: 20px;
+
+        }
+        .coust {
+          display: flex;
+          justify-content:center;
+          font-family: 'Lato', sans-serif;
+          font-size: 20px;
+          font-weight: 300;
+          text-align: center;
+
+        }
+      }
+    }
+  }
+}
