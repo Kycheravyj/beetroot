@@ -1,0 +1,3 @@
+[2018-02-03 09:20:22] layer "HERO Img.header": Unsupported extension: header
+[2018-02-03 09:17:15] layer "Right Arrow Circular Button. Attribute as Robin Kylander from Flaticon.com": Unsupported extension: com
+[2018-02-03 09:17:15] layer "Link 1. Attribute as Freepik from Flaticon.com": Unsupported extension: com

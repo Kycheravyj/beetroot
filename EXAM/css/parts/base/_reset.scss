@@ -1,0 +1,33 @@
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  //transition: all 0.3s ease-in-out;
+  }
+li {
+  list-style: none;
+}
+button {
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+  border: none;
+  border: 0;
+}
+button, 
+button:active, 
+button:focus {
+    outline: none;
+}
+a {
+  text-decoration: none;
+  list-style: none;
+  //transition: all 0.5s ease-in;
+  cursor: pointer;
+}
+input,
+input:active,
+input:focus {
+  outline: none;
+  border: none;
+}

@@ -1,0 +1,63 @@
+.dolore {
+  background: url("../img/Rectangle 3.png") no-repeat ;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+    &__wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    &--text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      //align-items: center;
+      width: 570px;
+      padding: 0 100px 0 100px;
+
+      &--p {
+        font-family: Lato;
+        color:  $white;
+        font-size: 44.67px;
+        font-weight: 400;
+        line-height: 60px;
+        text-align: left;
+        transform: scaleY(1.0092);
+        text-transform: uppercase;
+      }
+      &--pre {
+        font-family: Lato;
+        color:  $white;
+        font-size: 22px;
+        font-weight: lighter;
+        line-height: 28px;
+        text-align: left;
+        margin-bottom: 70px;
+      } 
+      &--a {
+        font-family: Lato;
+        color:  $white;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: left;
+        width: 50px;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  &--img {
+   display: flex;
+   flex-direction: row;
+   padding: 0 50px 0 0;
+   height: 500px;
+   //align-content: flex-end;
+   img {
+     align-self: flex-end;
+   }
+  }
+  }
+}

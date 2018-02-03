@@ -1,0 +1,118 @@
+.services {
+  height: 735px;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  &__wrapper {
+    padding: 0 150px 0 150px;
+    &--top {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      &--p {
+        font-family: Raleway;
+        color:  $black;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        margin-bottom: 70px;
+      }
+      &--decor {
+        width: 86px;
+        height: 2px;
+        background-color: $black;
+        margin-bottom: 70px;
+      }
+    }
+    &--bottom {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: space-around;
+      &--left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &--img {
+          margin-bottom: 52px;
+
+        }
+        &--p {
+          font-family: Lato;
+          color:  $black;
+          font-size: 24px;
+          font-weight: bold;
+          line-height: 24px;
+          text-align: center;
+          margin-bottom: 40px;
+        }
+        &--pre {
+          font-family: Lato;
+          color: $black;
+          font-size: 16px;
+          line-height: 30px;
+          text-align: center;
+        }
+      }
+      &--center {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &--img {
+          margin-bottom: 32px;
+          margin-top: -25px;
+
+        }
+        &--p {
+          font-family: Lato;
+          color:  $black;
+          font-size: 24px;
+          font-weight: bold;
+          line-height: 24px;
+          text-align: center;
+          margin-bottom: 40px;
+        }
+        &--pre {
+          font-family: Lato;
+          color: $black;
+          font-size: 16px;
+          line-height: 30px;
+          text-align: center;
+        }
+      } 
+      &--right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &--img {
+          margin-bottom: 52px;
+
+        }
+        &--p {
+          font-family: Lato;
+          color:  $black;
+          font-size: 24px;
+          font-weight: bold;
+          line-height: 24px;
+          text-align: center;
+          margin-bottom: 40px;
+        }
+        &--pre {
+          font-family: Lato;
+          color: $black;
+          font-size: 16px;
+          line-height: 30px;
+          text-align: center;
+        }
+      } 
+    }
+  }
+}
