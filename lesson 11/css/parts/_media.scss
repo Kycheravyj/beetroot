@@ -1,0 +1,16 @@
+@media (max-width: 1000px) {
+  .header {
+    min-height: 100px;
+    height: auto;
+    padding: 20px 15px;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__nav-btn {
+    display: flex;
+  }
+  .header__wrapper {
+    flex-wrap: wrap;
+  }
+}
