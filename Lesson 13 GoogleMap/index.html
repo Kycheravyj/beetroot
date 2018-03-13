@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <a href="https://msdn.microsoft.com/en-us/library/jj676915%28v=vs.85%29.aspx"></a>
+  <meta name="description" content="Краткое описание страницы.140-150">
+  <meta name="keywords" content="ключевые слова мах-200">
+  <title>Title</title>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="shortcut icon"  type="image/png" href="favicon.png">
+</head>
+<body>
+ <h1>google iframe</h1>
+ <div class="simple-map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2679.221463353722!2d35.16852691508951!3d47.
+    81592568148827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc5e0f04b3c2cb%3A0x4e8475715b2be177!
+    2z0LLRg9C70LjRhtGPINCo0LrRltC70YzQvdCwLCA1Niwg0JfQsNC_0L7RgNGW0LbQttGPLCDQl9Cw0L_
+    QvtGA0ZbQt9GM0LrQsCDQvtCx0LvQsNGB0YLRjCwgNjkwMDA!5e0!3m2!1sru!2sua!4v1520674456664" width="600" height="450"
+     frameborder="0" style="border:0" allowfullscreen></iframe>
+
+ </div>
+<hr>
+<h1>google api</h1>
+<div id="google-api" class="api-map"></div>
+<script>
+    function initMap() {
+      let beetroot = {lat: 47.816, lng: 35.170};
+      let map = new google.maps.Map(document.getElementById('google-api'), {
+        zoom: 17,
+        center: beetroot,
+        disableDefaultUI: true
+      });
+  //     let content = '<div><p>Title</p><p>dicription</p></div>'
+  //     var infowindow = new google.maps.InfoWindow({
+  //   content: contentString
+  // });
+
+      let marker = new google.maps.Marker({
+        position: beetroot,
+        map: map,
+        title: 'chto to',
+        icon: './map-marker-small-hi.png'
+        });
+    }
+  </script>
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCud-bKeJsm0nwdBmdWpOoLrCvtiJ6DJ38&callback=initMap">
+  </script>
+
+<!-- AIzaSyCud-bKeJsm0nwdBmdWpOoLrCvtiJ6DJ38 -->
+
+
+
+  <!-- <script src="./js/jquery-3.3.1.min.js"></script>
+  <script src="./js/slick.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
+  <script src="./js/main.js"></script>
+  <script src="./js/form-validation.js"></script> -->
+</body>
+
+</html> 
