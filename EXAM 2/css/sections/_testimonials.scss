@@ -24,7 +24,7 @@
     color: $gray;
     margin-bottom: 40px;
   }
-  /*SLIDER SETTINGS*/
+
 
   &__item-wrapper {
     margin: 0 auto;
@@ -98,18 +98,18 @@
     display: none;
   }
 
-  &__slider-btn:hover {
-    color: transparent; 
-  }
+  // &__slider-btn:hover {
+  //   color: transparent; 
+  // }
 
-  &__slider-btn--prev {
-    left: 10px;
-    top: 1%;
-  }
-  &__slider-btn--next {
-    right: 10px;
-    top: 1%;
-  }
+  // &__slider-btn--prev {
+  //   left: 10px;
+  //   top: 1%;
+  // }
+  // &__slider-btn--next {
+  //   right: 10px;
+  //   top: 1%;
+  // }
   
 }
 

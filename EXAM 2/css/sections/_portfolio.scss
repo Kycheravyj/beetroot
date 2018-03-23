@@ -1,8 +1,9 @@
 .portfolio {
   width: 100% ;  
-  height: 100%;
+  height: 900px;
   background-color: $darkWhite;
   &__container {
+    
     // display: flex;
     // align-items: center;
   }
@@ -28,78 +29,61 @@
     margin-bottom: 40px;
   }
 
+
   &__galerry-wrapper {
     text-align: center;
     padding-bottom: 110px;
-
   }
-
-  &__filter-controls {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 65px;
 }
 
-  &__controls-item {
-  font-size: 16px;
-  margin-right: 25px;
-  padding-bottom: 15px;
-  position: relative;
-  color: $darkGray;
-  cursor: pointer;
-  z-index: 10;
-    &:nth-last-child(1) {
-      margin-right: 0px;
-    }
-    &:hover {
-      color: $green;
-    }
-    &.active {
-        border-bottom: 2px solid; 
-        border-color: $green;
+.portfolio__galerry-wrapper{
+  max-width:1100px;
+  .button-group {
+    display: flex;
+    justify-content: center;
+    button {
+      margin: 5px;
+      font-weight: 700;
+      color: #464646;
+      text-decoration: none;
+      padding: .8em 1em calc(.8em + 3px);
+      //border-radius: 3px;
+      background: transparent;
+      border: none;
+      //box-shadow: 0 -3px rgb(53,167,110) inset;
+      transition: 0.2s;
+      &:hover {
+        color: #19bd9a;
       }
-  }
-  &__img-responsive {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  &__filtr-item {
-    height: 270px;
-    width: 25%;
-  }
-}
-.img-responsive {
-  margin-right: 10px;
-}
-// @media (max-width: 900px) {
-//   .filtr-item {
-//     height: 270px;
-//     width: 33%;
-//   }
-// }
-// @media (max-width: 600px) {
-//   .filtr-item {
-//     height: 200px;
-//     width: 50%;
-//   }
-// }
+      &.active {
+        border-bottom: 1px solid; 
+        border-color:  #19bd9a;
+        color: #19bd9a;
+      }
+     
+    }
 
-.filtr-item img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+  }
+  .grid {
+    max-width:1100px;
+    margin-left:100px;
+  }
 }
 
-// .item-desc {
-//   display: none;
-//   padding: 0 1rem;
-//   position: absolute;
-//   left: 0;
-//   bottom: 0;
-//   width: 100%;
-//   height: 40px;
-//   background: rgba(0,0,0,0.5);
-//   color: #fff;
-//   text-align: center;
-// }
+.grid-sizer,
+.grid-item {
+  width: 20%;
+  min-width: 150px;
+}
+
+.grid-item {
+  margin: 3px 5px;
+}
+
+.grid-item img {
+  max-width: 100%;
+  height: auto;
+  &:hover {
+    //background: rgba(0,0,0,0.5);
+  }
+}

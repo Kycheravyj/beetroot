@@ -1,9 +1,6 @@
 $(document).ready(function() {
 
-  $(function () {
-    //Initialize filterizr with default options
-    $('#filtr-container').filterizr();
-  });
+ 
   $('#team__slider').slick({
     dots: true,
     infinite: true,
@@ -12,9 +9,11 @@ $(document).ready(function() {
     adaptiveHeight: true,
     prevArrow: '<button type="button" class="team__slider-btn team__slider-btn--prev"><span class="ion-chevron-left"></span></button>',
     nextArrow: '<button type="button" class="team__slider-btn team__slider-btn--next"><span class="ion-chevron-right"></span></button>',
-    autoplay: false,
+    autoplay: true,
+    draggable: true,
+    pauseOnHover: true,
     // arrows: false,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
     fade: true,
   });
 
@@ -26,9 +25,9 @@ $(document).ready(function() {
     adaptiveHeight: true,
     prevArrow: '<button type="button" class="testimonials__slider-btn testimonials__slider-btn--prev"><span class="ion-chevron-left"></span></button>',
     nextArrow: '<button type="button" class="testimonials__slider-btn testimonials__slider-btn--next"><span class="ion-chevron-right"></span></button>',
-    autoplay: false,
+    autoplay: true,
     // arrows: false,
-    autoplaySpeed: 4000,
+    autoplaySpeed: 3000,
     fade: true,
   });
 
@@ -102,5 +101,37 @@ $(document).on("scroll", onScroll);
 $('.header__nav-btn').click(function() {
   $('.header__nav').toggleClass('header__nav--show');
   $(this).toggleClass('is-active');
+});
+ 
+
+  
+
+  $('.grid').masonry({
+    // options
+    itemSelector: '.grid-item',
+    columnWidth: '.grid-sizer',
+    // do not use .grid-sizer in layout
+    percentPosition: true,
+    horizontalOrder: true,
+    transitionDuration: '1.4s'
+  });
+
+
+  // init Isotope
+  var $grid = $('.grid').isotope({
+    // options
+  });
+  // filter items on button click
+  $('.filter-button-group').on('click', 'button', function () {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({ filter: filterValue });
+    
+  });
+
+
+$(".button-group button").click(function (event) {
+  event.preventDefault();
+  $(".button-group button").removeClass('active');
+  $(this).addClass('active');
 });
 
