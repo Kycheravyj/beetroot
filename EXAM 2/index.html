@@ -9,13 +9,13 @@
   <meta name="keywords" content="ключевые слова мах-200">
   <title>Bouncy</title>
   <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
-  <!-- <link rel="stylesheet" href="./css/fontawesome-all.min.css"> -->
+  <link rel="stylesheet" href="./css/fontawesome-all.min.css"> 
   <link rel="stylesheet" href="./css/ionicons.css">
   <link rel="stylesheet" href="./css/slick.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header--sticky">
         <div class="header__wrapper">
           <div class="header__logo">
             <a>
@@ -201,22 +201,31 @@
     <script src="./js/map.js"></script>
 </section>
 <footer class="footer">
-  <div class="footer__wrapper">
-  <div class="footer__wrapper--logo">
-    <a href="#">
-      <img src="./img/Bouncy.png" alt="logoblack">
-    </a>
-    <p  class="footer__wrapper--text--pre">Copyright 2015. All rights Reserved</p>
-  </div>
-  <div class="footer__wrapper--icons">
-    <a href="#"><i class="ion ion-social-facebook"></i></a>
-    <a href="#"><i class="ion ion-social-twitter"></i></a>
-    <a href="#"><i class="ion ion-social-linkedin"></i></a>
-    <a href="#"><i class="ion ion-social-instagram"></i></a>
-    <a href="#"><i class="ion ion-social-vimeo-outline"></i></a>
+  <div class="footer__wrap  section__mainblock">
+      <a href="#" class="footer__logo">
+        <img class="logo" src="./img/Bouncy.png" alt="logo">
+    
+      </a>
+      <p class="footer__p">Copyright 2015. All rights Reserved</p>
+      <div class="footer__social-block">
+        <a href="#" class="footer__social-item footer__item-f">
+          <i class="ion ion-social-facebook footer__social-icon" aria-hidden="true"></i>
+        </a>
+        <a href="#"  class="footer__social-item footer__item-t">
+          <i class="ion ion-social-twitter footer__social-icon" aria-hidden="true"></i>
+        </a>
+        <a href="#"  class="footer__social-item footer__item-l">
+          <i class="ion ion-social-linkedin footer__social-icon" aria-hidden="true"></i>
+        </a>
+        <a href="#"  class="footer__social-item footer__item-i">
+          <i class="ion ion-social-instagram footer__social-icon" aria-hidden="true"></i>
+        </a>
+        <a href="#"  class="footer__social-item footer__item-v">
+          <i class="ion ion-social-vimeo-outline footer__social-icon" aria-hidden="true"></i>
+        </a>
+      </div>
   </div>
 </footer>
-
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuBNW38opMMCzHICAsltjfj-f2020FMuw&callback=initMap"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="./js/jquery.slimscroll.js"></script> 
