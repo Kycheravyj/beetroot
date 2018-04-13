@@ -1,0 +1,38 @@
+.about_wrapper{
+  background: url(../img/4.jpg)no-repeat; /*your background image*/
+  background-size: cover;
+  //height: 100vh;
+}
+#about{
+  padding-top: 50px;
+  font-family: 'Lobster', cursive;
+  color: $color;
+  
+  //background: transparent;
+  a {
+    transition: ease-in-out 7s;
+  }
+  .dipper {
+    width: 70%;
+    float: right;
+  }
+  .col-md-6{
+    padding-bottom: 0;
+  }
+}
+
+.myapps{margin-top: 25px;}
+.myapps li{display: inline}
+.myapps li img{
+    width: 30px;
+    margin-bottom: 50px;
+}
+.container {
+  h2 {
+    font-size: 50px;
+  }
+  h4 {
+    font-size: 40px;
+  }
+}
+

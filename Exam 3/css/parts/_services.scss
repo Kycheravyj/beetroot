@@ -1,0 +1,26 @@
+.services_wrapper {
+  background: url(../img/6320.jpg)no-repeat; /*your background image*/
+  background-size: cover;
+  overflow: hidden;
+  //height: 100vh;
+  .col-md-6 {
+    h4 {
+
+    }
+    p {
+      color: $black;
+      font-family: 'Lobster', cursive;
+      font-size: 3vh;
+
+    }
+  }
+}
+hr.separetor {
+  width: 80px;
+  color: #363942;
+  border-top: 2px solid $yellow;
+  margin: 0 auto;
+}
+.row {
+  width: 100%;
+}
