@@ -35,7 +35,28 @@ $("html").niceScroll({
     cursorborder: "none",
 });
 
-
+// button back to top
+if ($("#button__page-up").length) {
+    let scrollTrigger = 200; // px
+    let backToTop = function () {
+      let scrollTop = $(window).scrollTop();
+      if (scrollTop > scrollTrigger) {
+        $("#button__page-up").addClass("is-visible");
+      } else {
+        $("#button__page-up").removeClass("is-visible");
+      }
+    };
+    backToTop();
+    $(window).scroll(function () { backToTop(); });
+    $("#button__page-up").click(function (e) {
+        e.preventDefault();
+        $("html,body").animate({
+            scrollTop: 0
+          }, 700
+        );
+      }
+    );
+  }
 
 //SMOOTHSCROLL
 

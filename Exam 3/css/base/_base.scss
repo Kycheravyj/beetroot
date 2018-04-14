@@ -6,3 +6,34 @@ body {
   height: auto;
 
 }
+.button__page-up {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  width: 50px;
+  height: 100px;
+  border-radius: 4px;
+  background: url(../img/Marvel-avengers-infinity-war-iron-man-sixth-scale-figure-hot-toys-silo-903421black.png)no-repeat;
+  background-position: center;
+  color: #666;
+  font-size: 24px;
+  transition: all 0.3s ease-in-out;
+  opacity: 0;
+  pointer-events: none;
+  cursor: pointer;
+}
+
+.button__page-up:hover {
+  background: url(../img/Marvel-avengers-infinity-war-iron-man-sixth-scale-figure-hot-toys-silo-9034211.png)no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.button__page-up:focus {
+  outline: none;
+}
+
+.button__page-up.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+}

@@ -8,7 +8,7 @@
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 980px) {
+@media only screen and (max-width :1000px) {
     
     /*HREO AREA */
     #hero{height: 540px;}
@@ -21,6 +21,7 @@
     #clients img{height: 40px;}
     #clients ul{float: none;}
     #clients h4 {display: none;}
+    #clients {display: none;}
     
     /* PORTFOLIO SECTION */
     #shotsByPlayerId li{width: 47%;}
@@ -35,7 +36,7 @@
     .navbar-collapse.collapse {display: none!important;}
 	.navbar-nav>li {
         float: none;
-        padding-left: 30px;
+        padding-left: 30px; 
         overflow: hidden;
     }
     .collapse.in{display:block !important;}
