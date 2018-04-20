@@ -49,11 +49,14 @@
     }
   }
   .slick-prev {
-    left: 0;
+    left: -30px;
+    top: 44%;
+
     //margin-right: 15px;
   }
   .slick-next {
-    right: 0;
+    right: -30px;
+    top: 44%;
     //margin-left: 5px;
   }
   .slick-dots {

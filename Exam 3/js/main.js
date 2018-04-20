@@ -134,7 +134,6 @@ $('#slider').slick({
   speed: 300,
   slidesToShow: 4,
   slidesToScroll: 1,
-  infinite: true,
   nextArrow: '<button type="button" class="slick-next"> <i class= "icon-action-redo" ></i> </button>',
   prevArrow: '<button type="button" class="slick-prev"> <i class= "icon-action-undo" ></i> </button>',
   responsive: [{
@@ -142,7 +141,6 @@ $('#slider').slick({
   settings: {
   slidesToShow: 3,
   slidesToScroll: 3,
-  infinite: true,
   dots: true
   }
   },

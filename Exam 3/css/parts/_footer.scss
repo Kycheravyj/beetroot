@@ -1,12 +1,23 @@
 footer{
   text-align: center;
-  padding: 50px 0;
-  background: #363942;
-}
+  padding: 25px 0;
+  //background: url(../img/S1e15_the_nights_are_hardest.png)no-repeat; /*your background image*/
+  //background-size: cover;
+  //background-position: center;
+    background-color:rgba(11, 11, 14, 0.624);
+    //height: 25vh;
+  }
 
+.footer {
+  background: url(../img/S1e15_the_nights_are_hardest.png)no-repeat; /*your background image*/
+  background-size: cover;
+  background-position: center;
+ // height: 25vh;
+ 
+}
 footer p, footer .bigicon {color: #7e7e7e;}
 
-.footerlinks{margin: 30px 0;}
+.footerlinks{margin: 20px 0;}
 .footerlinks li{
   display: inline;
   padding: 10px;
@@ -14,13 +25,27 @@ footer p, footer .bigicon {color: #7e7e7e;}
   letter-spacing: 3px;
 }
 
-.footersocial {margin-top: 30px;}
+//.footersocial {margin-top: 20px;}
 
 .footersocial li{
   display:inline;
   padding: 0 15px;
   font-size: 2em;
 }
-
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration:none !important;
+  color: #ea9312;
+  }
 .footersocial li a {color: #7e7e7e;}
 .footersocial li a:hover {color: #ea9312;}
+.footerlinks li a:hover {
+  color: $color;
+
+}
+a:hover {
+  text-decoration:none !important;
+  color: #ea9312;
+  }

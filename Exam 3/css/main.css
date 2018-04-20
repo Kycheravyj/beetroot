@@ -86,10 +86,10 @@ body {
   position: fixed;
   right: 40px;
   bottom: 40px;
-  width: 50px;
+  width: 100px;
   height: 100px;
   border-radius: 4px;
-  background: url(../img/Marvel-avengers-infinity-war-iron-man-sixth-scale-figure-hot-toys-silo-903421black.png) no-repeat;
+  background: url(../img/yev.png) no-repeat;
   background-position: center;
   color: #666;
   font-size: 24px;
@@ -101,7 +101,7 @@ body {
   cursor: pointer; }
 
 .button__page-up:hover {
-  background: url(../img/Marvel-avengers-infinity-war-iron-man-sixth-scale-figure-hot-toys-silo-9034211.png) no-repeat;
+  background: url(../img/bill_gray.png) no-repeat;
   background-position: center;
   color: #fff; }
 
@@ -3093,7 +3093,7 @@ p {
 
 /*HERO AREA*/
 #hero {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   background: url(../img/625703.jpg) no-repeat;
   background-size: cover;
@@ -3107,23 +3107,38 @@ p {
   height: auto; }
 
 .heroshot {
-  margin-top: 20px;
-  width: 50%;
+  margin-top: 10px;
+  width: 30%;
   height: auto; }
 
 .navbar-header .navbar-brand .brandname {
   font-family: 'Lobster', cursive; }
 
+.button__down {
+  z-index: 10;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 46%;
+  top: 90%;
+  background-color: red; }
+
 footer {
   text-align: center;
-  padding: 50px 0;
-  background: #363942; }
+  padding: 25px 0;
+  background-color: rgba(11, 11, 14, 0.624); }
+
+.footer {
+  background: url(../img/S1e15_the_nights_are_hardest.png) no-repeat;
+  /*your background image*/
+  background-size: cover;
+  background-position: center; }
 
 footer p, footer .bigicon {
   color: #7e7e7e; }
 
 .footerlinks {
-  margin: 30px 0; }
+  margin: 20px 0; }
 
 .footerlinks li {
   display: inline;
@@ -3131,18 +3146,29 @@ footer p, footer .bigicon {
   text-transform: uppercase;
   letter-spacing: 3px; }
 
-.footersocial {
-  margin-top: 30px; }
-
 .footersocial li {
   display: inline;
   padding: 0 15px;
   font-size: 2em; }
 
+a {
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: none !important;
+  color: #ea9312; }
+
 .footersocial li a {
   color: #7e7e7e; }
 
 .footersocial li a:hover {
+  color: #ea9312; }
+
+.footerlinks li a:hover {
+  color: #fff; }
+
+a:hover {
+  text-decoration: none !important;
   color: #ea9312; }
 
 #clients {
@@ -3190,7 +3216,7 @@ footer p, footer .bigicon {
     -o-transition: ease-in-out 7s;
     transition: ease-in-out 7s; }
   #about .dipper {
-    width: 70%;
+    width: 100%;
     float: right; }
   #about .col-md-6 {
     padding-bottom: 0; }
@@ -3212,10 +3238,10 @@ footer p, footer .bigicon {
   font-size: 40px; }
 
 .services_wrapper {
-  background: url(../img/6320.jpg) no-repeat;
-  /*your background image*/
-  background-size: cover;
-  overflow: hidden; }
+  background: url(../img/S1e1_forest_road.png) no-repeat;
+  background-size: cover; }
+  .services_wrapper .services {
+    background-color: rgba(255, 255, 255, 0.857); }
   .services_wrapper .col-md-6 p {
     color: #07070f;
     font-family: 'Lobster', cursive;
@@ -3271,9 +3297,11 @@ hr.separetor {
     .slider .slick-arrow:hover {
       color: #ea9312; }
   .slider .slick-prev {
-    left: 0; }
+    left: -30px;
+    top: 44%; }
   .slider .slick-next {
-    right: 0; }
+    right: -30px;
+    top: 44%; }
   .slider .slick-dots {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3388,12 +3416,15 @@ hr.separetor {
 .slick-arrow.slick-hidden {
   display: none; }
 
-#testimonials {
-  background: url(../img/bluedown.jpg) no-repeat;
-  background-size: cover;
-  background-position-y: top; }
-  #testimonials p {
-    color: #07070f; }
+.testimonials {
+  background: url(../img/S1e1_forest_road.png) no-repeat;
+  background-size: cover; }
+  .testimonials__wrapper {
+    background-color: rgba(255, 255, 255, 0.857); }
+
+#testimonials p {
+  color: #07070f;
+  font-weight: bold; }
 
 .clientsphoto img {
   width: 80px;

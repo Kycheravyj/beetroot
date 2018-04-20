@@ -1,7 +1,9 @@
 .services_wrapper {
-  background: url(../img/6320.jpg)no-repeat; /*your background image*/
+  background: url(../img/S1e1_forest_road.png)no-repeat;
   background-size: cover;
-  overflow: hidden;
+  .services {
+    background-color: rgba(255, 255, 255, 0.857);
+  }
   //height: 100vh;
   .col-md-6 {
     h4 {

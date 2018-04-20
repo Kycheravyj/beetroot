@@ -29,7 +29,7 @@ p{
 
 /*HERO AREA*/
 #hero{
-    color: #fff;
+    color:  #ffffff;
     text-align: center;
     background: url(../img/625703.jpg)no-repeat;
     background-size: cover;
@@ -45,8 +45,8 @@ p{
     //position: fixed;
 }
 .heroshot{
-    margin-top: 20px;
-    width: 50%;
+    margin-top: 10px;
+    width: 30%;
     height: auto;
     //max-width: 1200px;
 
@@ -57,4 +57,13 @@ p{
             font-family: 'Lobster', cursive;
         }
     }
+}
+.button__down {
+    z-index: 10;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 46%;
+    top:90%;
+    background-color: red;
 }
